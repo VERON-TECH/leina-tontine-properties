@@ -1,6 +1,6 @@
 spring:
-application:
-  name: cash
+  application:
+    name: cash
   datasource:
     url: jdbc:postgresql://localhost:5435/cashdb
     username: cash
