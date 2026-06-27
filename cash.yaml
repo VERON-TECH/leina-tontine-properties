@@ -37,6 +37,11 @@ management:
   endpoint:
     shutdown:
       access: unrestricted
+info:
+  app:
+    name: ${spring.application.name}
+    description: "Microservice Cash of Leina Tontine Backend"
+    contact: "VERON-SOLUTIONS"
 
 server:
   port: 1968
