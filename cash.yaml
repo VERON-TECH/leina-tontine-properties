@@ -3,8 +3,8 @@ application:
   name: cash
   datasource:
     url: jdbc:postgresql://localhost:5435/cashdb
-    username: cmec
-    password: cmec
+    username: cash
+    password: cash
   jpa:
     properties:
       hibernate:
