@@ -29,10 +29,6 @@ management:
   info:
     env:
       enabled: true
-    app:
-      name: ${spring.application.name}
-      description: "Microservice Cash of Leina Tontine Backend"
-      contact: "VERON-SOLUTIONS"
       
   endpoint:
     shutdown:
