@@ -34,5 +34,8 @@ management:
   endpoint:
     shutdown:
       access: unrestricted
+
+server:
+  port: 1968
       
       
