@@ -16,7 +16,7 @@ eureka:
     fetchRegister: true
     registerWithRegister: true
     serviceUrl:
-      defaultZone: "http://localhost:1993/eureka/
+      defaultZone: "http://localhost:1993/eureka/"
 
 management:
   endpoints:
