@@ -1,0 +1,38 @@
+spring:
+  application:
+    name: cash
+  datasource:
+    url: jdbc:postgresql://localhost:5432/cashdb
+    username: cash
+    password: cash
+  jpa:
+    properties:
+      dialect: org.hibernate.dialect.postgreSQLDialect
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegister: true
+    registerWithRegister: true
+    serviceUrl:
+      defaultZone: "http://localhost:1993/eureka/
+
+management:
+  endpoints:
+    web:
+      exposure:
+        includes: "*"
+  info:
+    env:
+      enabled: true
+    app:
+      name: ${spring.application.name}
+      description: "Microservice Cash of Leina Tontine Backend"
+      contact: "VERON-SOLUTIONS"
+      
+  endpoint:
+    shutdown:
+      access: unrestricted
+      
+      
